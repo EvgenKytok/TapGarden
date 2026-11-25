@@ -1,0 +1,11 @@
+.godot/
+.import/
+.cache/
+tmp/
+export_presets.cfg
+user/
+*.tmp
+.DS_Store
+.vscode/
+.idea/
+*.log

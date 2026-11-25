@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://titeax72tv0t"]
+
+[ext_resource type="Script" uid="uid://bna6mv0v1auuo" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Control" unique_id=1935567768]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ig7tw")
+
+[node name="Plots" type="Node2D" parent="." unique_id=676090836]
+
+[node name="Plot1" type="Marker2D" parent="Plots" unique_id=323160260]
+position = Vector2(877, 321)
+
+[node name="Plot2" type="Marker2D" parent="Plots" unique_id=1500681867]
+position = Vector2(204, 360)
+
+[node name="Plot3" type="Marker2D" parent="Plots" unique_id=981654932]
+position = Vector2(644, 423)
+
+[node name="Plot5" type="Marker2D" parent="Plots" unique_id=1142846610]
+position = Vector2(486, 551)
+
+[node name="Plot6" type="Marker2D" parent="Plots" unique_id=1099071276]
+position = Vector2(379, 225)
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1906256913]
